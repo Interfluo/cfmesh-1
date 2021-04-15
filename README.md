@@ -1,6 +1,6 @@
-#Notes
+# Notes
 
-##File Structure:
+## File Structure:
 - Main
 	- constant
 		- polyMesh
@@ -21,7 +21,7 @@
 	- mesh.foam
 
 
-##Commands:
+## Commands:
 - **generate bounding box** : surfaceGenerateBoundingBox original.stl bounding_box.stl x_neg x_pos y_neg y_pos z_neg z_pos
 	- ex. "surfaceGenerateBoundingBox cube.stl cubeBB.stl 1 1 0 1 2 1"
 - **combine files into one**: cat original.stl bounding_box.stl >> combined.stl
